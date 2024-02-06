@@ -1,15 +1,28 @@
 <script>
 import AppTitle from './components/AppTitle.vue';
+import AppHero from './components/AppHero.vue';
+
 
 export default {
   components: {
-    AppTitle
+    AppTitle,
+    AppHero
   }
 }
 </script>
 
 <template>
-  <AppTitle />
+  <div class="container">
+    <AppTitle />
+    <AppHero />
+
+  </div>
 </template>
 
-<style></style>
+<style>
+.container {
+  width: 60%;
+  margin: 0 auto;
+  background-color: lightgray;
+}
+</style>

@@ -10,7 +10,7 @@ export default {
 
 <style scoped>
 h1 {
-    color: rgb(187, 0, 0);
+    color: #26d2ff;
     text-align: center;
     font-size: 50px;
 }
